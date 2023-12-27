@@ -794,3 +794,24 @@ color:  rgb(61, 131, 223)
         box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
 
 }
+
+svg{
+    fill: gray;
+}
+svg:hover{
+    cursor: pointer;
+    fill: #00C3A5;
+}
+
+.gry{
+    filter: grayscale(100%);
+
+}
+
+.gry:hover{
+    filter: none;
+
+}
+option{
+    color: black;
+}
